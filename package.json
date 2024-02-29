@@ -12,15 +12,20 @@
     "@headlessui/react": "^1.7.12",
     "@heroicons/react": "^2.0.16",
     "@tailwindcss/forms": "^0.5.3",
+    "@types/node": "^20.11.23",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
     "flowbite": "^1.6.3",
     "flowbite-react": "^0.3.8",
-    "next": "13.2.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "eslint-config-next": "^14.1.0",
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.7"
+    "tailwindcss": "^3.2.7",
+    "typescript": "^5.3.3"
   }
 }

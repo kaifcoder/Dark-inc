@@ -6,13 +6,13 @@ const stats = [
 
 export default function Stat() {
   return (
-    <div className="bg-white py-8 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <dl className="grid grid-cols-1 gap-y-16 gap-x-8 text-center lg:grid-cols-3">
+    <div className="py-8 bg-white sm:py-32">
+      <div className="px-6 mx-auto max-w-7xl lg:px-8">
+        <dl className="grid grid-cols-1 text-center gap-y-16 gap-x-8 lg:grid-cols-3">
           {stats.map((stat) => (
             <div
               key={stat.id}
-              className="mx-auto flex max-w-xs flex-col gap-y-4"
+              className="flex flex-col max-w-xs mx-auto gap-y-4"
             >
               <dt className="text-base leading-7 text-gray-600">{stat.name}</dt>
               <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
